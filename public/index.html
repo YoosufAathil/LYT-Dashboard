@@ -7,11 +7,26 @@
       content="Web site created using create-react-app"
     />
     <style>
-      * {
+      @font-face {
+        font-family: "Aeonik";
+        src: url("../src/Assets/Fonts/AeonikTRIAL-Light.otf") format("opentype");
+        font-weight: 300;
+      }
+
+      @font-face {
         font-family: "Aeonik";
         src: url("../src/Assets/Fonts/AeonikTRIAL-Regular.otf")
           format("opentype");
         font-weight: 400;
+      }
+
+      @font-face {
+        font-family: "Aeonik";
+        src: url("../src/Assets/Fonts/AeonikTRIAL-Bold.otf") format("opentype");
+        font-weight: 700;
+      }
+      * {
+        font-family: "Aeonik", sans-serif;
       }
     </style>
     <title>LYT Dashboard</title>
