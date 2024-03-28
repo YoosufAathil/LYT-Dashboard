@@ -6,6 +6,7 @@
     .top {
         height: 50px;
         display: flex;
+
         align-items: center;
         justify-content: center;
 
@@ -17,6 +18,8 @@
     }
 
     .center {
+        display: flex;
+
         margin: 10px 10px 10px 0;
 
         ul {
@@ -42,6 +45,8 @@
                     }
                 }
 
+
+
                 .icon {
                     font-size: 18px;
 
@@ -50,7 +55,7 @@
                 span {
                     font-size: 20px;
                     margin-left: 10px;
-                    font-weight: 500;
+                    font-weight: 400;
                 }
             }
 
@@ -62,14 +67,13 @@
     .bottom {
         padding: 15px;
         display: flex;
-        margin: 100px 10px 10px 10px;
         align-items: center;
+        margin: 100px 0 10px 0;
 
 
         .icon {
             font-size: 18px;
             color: #0FA44A;
-
         }
 
         span {
