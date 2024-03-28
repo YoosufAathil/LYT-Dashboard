@@ -1,0 +1,51 @@
+.widget {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    padding: 10px;
+    background: white;
+    border-radius: 4px;
+    height: 100px;
+    gap: 40px;
+
+    .left {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .title {
+            font-size: 14px;
+            font-weight: 300;
+        }
+
+        .numbers {
+            font-size: 26px;
+            font-weight: 600;
+        }
+
+        .description {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+            .icon {
+                font-size: 18px;
+                color: #0FA44A;
+                margin: 5px;
+                padding-bottom: 2px;
+            }
+
+            span {
+                color: #0FA44A;
+            }
+        }
+    }
+
+    .right {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+
+}
