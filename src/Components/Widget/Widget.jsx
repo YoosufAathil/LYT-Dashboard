@@ -11,7 +11,7 @@ const Widget = ({ type }) => {
       data = {
         title: "Followers",
         numbers: "93.2k",
-        percentage: "0.8%",
+        percentage: "0.8% ",
       };
       break;
 
@@ -19,7 +19,7 @@ const Widget = ({ type }) => {
       data = {
         title: "Likes",
         numbers: "400k",
-        percentage: "1.21%",
+        percentage: "1.21% ",
       };
       break;
 
