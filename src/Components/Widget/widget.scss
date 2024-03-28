@@ -6,7 +6,6 @@
     background: white;
     border-radius: 4px;
     height: 100px;
-    gap: 40px;
 
     .left {
         display: flex;
@@ -14,6 +13,7 @@
         justify-content: space-between;
 
         .title {
+            color: #6A6A6A;
             font-size: 14px;
             font-weight: 300;
         }
@@ -21,12 +21,14 @@
         .numbers {
             font-size: 26px;
             font-weight: 600;
+            color: #1A1A1A;
         }
 
         .description {
             display: flex;
             flex-direction: row;
             align-items: center;
+            color: #6A6A6A;
 
             .icon {
                 font-size: 18px;
