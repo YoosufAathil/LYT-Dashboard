@@ -1,7 +1,6 @@
 .navbar {
     height: 70px;
     display: flex;
-    align-items: center;
     background: #fff;
 
     .wrapper {
@@ -51,7 +50,7 @@
 
         .right {
             flex: 2;
-            margin: 20px;
+            margin-right: 50px;
 
             .profile {
                 display: flex;
