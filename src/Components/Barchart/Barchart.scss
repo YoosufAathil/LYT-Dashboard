@@ -28,7 +28,10 @@
     }
 
     .bottom {
+        display: flex;
         padding: 10px;
         background-color: white;
+        align-items: center;
+        justify-content: center;
     }
 }

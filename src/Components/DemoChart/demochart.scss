@@ -1,4 +1,125 @@
 .demochart {
     flex: 1;
-    background-color: bisque;
+
+    .line {
+        height: 0;
+        border: 1px solid #8F8F8F;
+        opacity: 0.1
+    }
+
+    .title {
+        color: #1A1A1A;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin: 10px;
+        padding: 5px;
+    }
+
+    .top {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+        background-color: white;
+
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .list {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        li {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 10px;
+            padding: 5px;
+
+            .icon {
+                padding-right: 5px;
+            }
+        }
+
+
+    }
+
+    .middle {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-color: white;
+        padding: 10px;
+        justify-content: space-around;
+
+        .left {
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .right {
+
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            flex-direction: column;
+
+            .heading {
+                margin-left: 45px;
+                padding: 5px;
+            }
+        }
+
+
+
+    }
+
+    .bottom {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: white;
+
+        .header {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            span {
+                margin: 10px 0;
+                padding: 10px;
+
+            }
+
+            .title1 {
+                color: #1A1A1A;
+                font-size: 20px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .button {
+                color: #0FA44A;
+                margin: 10px;
+                padding: 10px 15px;
+                border: 0.5px solid #0FA44A;
+                background-color: white;
+                border-radius: 10px;
+                cursor: pointer;
+            }
+        }
+    }
 }

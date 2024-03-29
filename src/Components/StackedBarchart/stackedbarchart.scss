@@ -1,0 +1,29 @@
+.stackedbarchart {
+    margin: 0;
+    padding: 0;
+    width: 400px;
+
+    .recharts-cartesian-axis-line {
+        display: none;
+
+
+    }
+
+    /* Target all horizontal lines */
+    .recharts-wrapper .recharts-cartesian-grid-horizontal line {
+        stroke-opacity: 0;
+    }
+
+    /* Target all vertical lines */
+    .recharts-wrapper .recharts-cartesian-grid-vertical line {
+        stroke-opacity: 0;
+    }
+
+    /* Target the edge lines specifically */
+    .recharts-wrapper .recharts-cartesian-grid-horizontal line:first-child,
+    .recharts-wrapper .recharts-cartesian-grid-horizontal line:last-child,
+    .recharts-wrapper .recharts-cartesian-grid-vertical line:first-child,
+    .recharts-wrapper .recharts-cartesian-grid-vertical line:last-child {
+        stroke-opacity: 0;
+    }
+}

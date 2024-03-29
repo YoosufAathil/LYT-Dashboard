@@ -7,7 +7,7 @@ import {
   XAxis,
   YAxis,
   Tooltip,
-  Legend,
+  // Legend,
   CartesianGrid,
 } from "recharts";
 
@@ -39,7 +39,7 @@ const Barchart = () => {
               width: 80,
             }}
           />
-          <Legend
+          {/* <Legend
             width={100}
             wrapperStyle={{
               top: 40,
@@ -49,7 +49,7 @@ const Barchart = () => {
               borderRadius: 3,
               lineHeight: "40px",
             }}
-          />
+          /> */}
           <CartesianGrid stroke="#ccc" strokeDasharray="5 5" />
           <Bar dataKey="uv" fill="rgba(15, 164, 74, 0.3)" barSize={30} />
         </BarChart>
