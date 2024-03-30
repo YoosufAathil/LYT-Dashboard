@@ -1,1 +1,57 @@
-.locationtable {}
+.locationtable {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 0.5px solid #8f8f8f30;
+
+        .heading {
+            color: #8F8F8F;
+            font-size: 16px;
+        }
+    }
+
+    .rows {
+        margin: 10px 0;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 0.5px solid #8f8f8f30;
+
+        .left {
+            color: #131313;
+            font-size: 18px;
+        }
+
+        .right {
+            .top {
+                color: #131313;
+                display: flex;
+                flex-direction: column;
+                font-size: 18px;
+            }
+
+            .bottom {
+                display: flex;
+                flex-direction: row;
+                color: rgb(15, 164, 74);
+                font-size: 12px;
+                justify-content: center;
+                align-items: center;
+
+                .icon {
+                    display: flex;
+                    font-size: 14px;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: center;
+                }
+            }
+        }
+    }
+}
