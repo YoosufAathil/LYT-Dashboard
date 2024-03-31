@@ -27,7 +27,6 @@ const Home = () => {
           <Barchart />
           <Demochart />
         </div>
-        <div className="posts">Post Activity</div>
       </div>
     </div>
   );

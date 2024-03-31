@@ -1,4 +1,14 @@
 .postactivity {
-    margin: 0;
-    padding: 0;
+    margin: 20px 0;
+
+    .heading {
+
+        color: #1A1A1A;
+        font-size: 20px;
+    }
+
+    .content {
+        margin: 20px 0;
+        background-color: white;
+    }
 }

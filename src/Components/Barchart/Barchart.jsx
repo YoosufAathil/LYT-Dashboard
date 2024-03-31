@@ -1,5 +1,6 @@
 import "./Barchart.scss";
 import ExpandMoreOutlinedIcon from "@mui/icons-material/ExpandMoreOutlined";
+import PostActivity from "../Post/PostActivity";
 
 import {
   BarChart,
@@ -39,23 +40,12 @@ const Barchart = () => {
               width: 80,
             }}
           />
-          {/* <Legend
-            width={100}
-            wrapperStyle={{
-              top: 40,
-              right: 20,
-              backgroundColor: "#f5f5f5",
-              border: "1px solid #d5d5d5",
-              borderRadius: 3,
-              lineHeight: "40px",
-            }}
-          /> */}
           <CartesianGrid stroke="#ccc" strokeDasharray="5 5" />
           <Bar dataKey="uv" fill="rgba(15, 164, 74, 0.3)" barSize={30} />
         </BarChart>
       </div>
       <div className="postactivity">
-        <span className="heading">Post Activity</span>
+        <PostActivity />
       </div>
     </div>
   );
