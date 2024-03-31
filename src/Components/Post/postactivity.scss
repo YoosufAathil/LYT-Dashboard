@@ -7,28 +7,35 @@
     }
 
     .content {
-        width: 100%;
-        margin: 20px 0;
-        background-color: white;
 
-        table {
-            width: 100%;
-            border-spacing: 5px;
-
-            td {
-                padding: 10px 0;
-            }
-
+        th {
+            padding: 10px 0;
+            display: flex;
+            justify-content: center;
         }
 
-        .profile {
-            width: 45px;
-            height: 45px;
-            border-radius: 5px;
+        .desc {
+            margin: 0;
+            padding: 0;
+        }
+
+        .eyetext {
+            align-items: center;
+        }
+
+
+        .date {
+            align-items: center;
         }
 
         .icon {
-            width: 35px;
+            color: #0FA44A;
+            padding-right: 5px;
+
+        }
+
+        .more {
+            cursor: pointer;
         }
     }
 }

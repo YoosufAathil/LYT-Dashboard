@@ -1,9 +1,12 @@
 .home {
     display: flex;
     margin: 0;
+    width: 100%;
+    overflow-x: hidden;
 
     .homeContainer {
-        background-color: #FBFBFB;
+        background-color: #fbfbfb;
+        width: 100%;
         flex: 6;
 
         .widget-title {
