@@ -60,6 +60,15 @@ const Demochart = () => {
                   />
                 ))}
               </Pie>
+              <text x={160} y={40} fill="#000">
+                55%
+              </text>
+              <text x={5} y={160} fill="#000">
+                35%
+              </text>
+              <text x={165} y={160} fill="#000">
+                15%
+              </text>
             </PieChart>
           </div>
         </div>

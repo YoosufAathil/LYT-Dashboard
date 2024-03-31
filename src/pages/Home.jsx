@@ -14,7 +14,7 @@ const Home = () => {
         <Navbar />
         <div className="widget-title">
           <span className="title">Performance Metrics</span>
-          <a href="www.google.com" className="link">
+          <a href="#" className="link">
             Download Summary
           </a>
         </div>
