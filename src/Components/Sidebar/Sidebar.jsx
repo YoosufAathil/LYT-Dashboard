@@ -51,7 +51,7 @@ const Sidebar = () => {
       </div>
       <div className="bottom">
         <LogoutIcon className="icon" />
-        <span>Log-out</span>
+        <span className="logout">Log-out</span>
       </div>
     </div>
   );
