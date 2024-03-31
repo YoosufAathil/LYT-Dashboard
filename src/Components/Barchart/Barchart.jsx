@@ -54,6 +54,9 @@ const Barchart = () => {
           <Bar dataKey="uv" fill="rgba(15, 164, 74, 0.3)" barSize={30} />
         </BarChart>
       </div>
+      <div className="postactivity">
+        <span className="heading">Post Activity</span>
+      </div>
     </div>
   );
 };
